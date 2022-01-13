@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="m-3 p-3 bg-secondary rounded-3">
+
+
+        <div class="input-group m-1">
+            <input id="inputCelcius" type="text" class="form-control" placeholder="Celcius"
+                aria-describedby="button-addon2">
+            <label class="input-group-text" for="inputGroupSelect01" style="width: 40px;">°C</label>
+            <button class="btn btn-outline-info btn-warning text-dark fw-bold" type="button"
+                id="btnCelcius">Convert</button>
+        </div>
+        <div class="input-group m-1">
+            <input id="inputFahrenheit" type="text" class="form-control" placeholder="Fahrenheit"
+                aria-describedby="button-addon2">
+            <label class="input-group-text" for="inputGroupSelect01" style="width: 40px;">°F</label>
+            <button class="btn btn-outline-info btn-warning text-dark fw-bold" type="button"
+                id="btnFahrenheit">Convert</button>
+        </div>
+        <div class="input-group m-1">
+            <input id="inputRankine" type="text" class="form-control" placeholder="Rankine"
+                aria-describedby="button-addon2">
+            <label class="input-group-text" for="inputGroupSelect01" style="width: 40px;">°R</label>
+            <button class="btn btn-outline-info btn-warning text-dark fw-bold" type="button"
+                id="btnRankine">Convert</button>
+        </div>
+        <div class="input-group m-1">
+            <input id="inputKelvin" type="text" class="form-control" placeholder="Kelvin"
+                aria-describedby="button-addon2">
+            <label class="input-group-text" for="inputGroupSelect01" style="width: 40px;">&nbsp;K</label>
+            <button class="btn btn-outline-info btn-warning text-dark fw-bold" type="button"
+                id="btnKelvin">Convert</button>
+        </div>
+        <div class="d-flex justify-content-center p-2">
+            <button id="btnReset"class="btn btn-outline-warning btn-info text-dark fw-bold" type="button">RESET</button>
+
+        </div>
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
